@@ -229,7 +229,7 @@ Notable recent churn — see [docs/status-changes.md](docs/status-changes.md) fo
 ## Related Lists
 
 - [awesome-ai-sandboxes](https://github.com/dakotac1994/awesome-ai-sandboxes) — the deep dive on AI sandboxes and coding-agent sandboxes (this list's [Agent Sandboxes](#agent-sandboxes--tool-platforms) section is the short version).
-- [awesome-microVM](https://github.com/dakotac1994/awesome-microvm) — the microVM ecosystem underneath most agent sandboxes.
+- [awesome-microVM](https://github.com/dakotac1994/awesome-microVM) — the microVM ecosystem underneath most agent sandboxes.
 - [awesome-jev](https://github.com/dakotac1994/awesome-jev) — TypeSafe Jev / System One: fast, typed AI decisions with calibrated confidence.
 
 ## Contributing
