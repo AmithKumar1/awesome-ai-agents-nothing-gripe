@@ -16,6 +16,7 @@ The agent ecosystem moves fast — products get acquired, deprecated, or wound d
 
 ## Acquisitions
 
+- **Amp** → independent Amp Inc., spun off from Sourcegraph (Dec 2025). The `sourcegraph/amp` GitHub repo is gone; product continues at ampcode.com.
 - **Langfuse** → ClickHouse (Jan 2026). Open-source tracing/evals product continues.
 - **Lakera Guard** → Check Point (Sept 2025). Buy via Check Point.
 - **Robust Intelligence** → Cisco. AI firewall + red teaming.
