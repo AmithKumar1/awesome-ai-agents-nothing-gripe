@@ -1,0 +1,56 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  links:
+    name: Link check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --config .lychee.toml --no-progress './**/*.md'
+          fail: true
+
+  data:
+    name: Validate data file
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate agents.json
+        run: |
+          python3 - <<'EOF'
+          import json
+          from collections import Counter
+          data = json.load(open('data/agents.json'))
+          assert isinstance(data, list) and data, "must be a non-empty list"
+          required = {"id", "name", "url", "github", "license", "status", "categories", "description"}
+          cats = {"frameworks", "platforms", "coding", "computer-use", "orchestration",
+                  "protocols", "evals", "memory", "observability", "marketplaces",
+                  "security", "sandboxes"}
+          statuses = {"active", "beta", "legacy", "archived", "deprecated",
+                      "sunsetting", "acquired", "maintenance"}
+          for i, e in enumerate(data):
+              missing = required - e.keys()
+              assert not missing, f"entry {i} ({e.get('name')}) missing {missing}"
+              assert e["status"] in statuses, f"entry {i} bad status {e['status']}"
+              assert e["categories"] and all(c in cats for c in e["categories"]), \
+                  f"entry {i} bad categories {e['categories']}"
+              assert e["url"].startswith("https://"), f"entry {i} url must be https"
+              assert e["description"], f"entry {i} empty description"
+          ids = [e["id"] for e in data]
+          assert len(ids) == len(set(ids)), "duplicate ids"
+          names = [e["name"] for e in data]
+          assert len(names) == len(set(names)), "duplicate names"
+          print(f"OK: {len(data)} entries, "
+                f"{sum(len(e['categories']) for e in data)} category placements")
+          print(Counter(c for e in data for c in e["categories"]))
+          EOF
