@@ -10,6 +10,7 @@ exclude = [
   "https://openai\\.com/index/",  # 403 to automated checks; live for humans
   "https://www.salesforce.com/agentforce/agentexchange/?bc=OTH",  # bot-walled; live for humans
   "https://robustintelligence.com",  # times out for automated checks; live for humans
+  "https://ampcode.com",  # HTTP/2 protocol error for automated checks; live for humans
 ]
 # Be lenient with rate-limited hosts; retry before failing.
 max_retries = 3
