@@ -6,7 +6,9 @@
     "github": "langchain-ai/langchain",
     "license": "MIT",
     "status": "active",
-    "categories": ["frameworks"],
+    "categories": [
+      "frameworks"
+    ],
     "description": "Foundational LLM app framework: chains, prompts, tools, retrievers."
   },
   {
@@ -16,7 +18,10 @@
     "github": "langchain-ai/langgraph",
     "license": "MIT",
     "status": "active",
-    "categories": ["frameworks", "orchestration"],
+    "categories": [
+      "frameworks",
+      "orchestration"
+    ],
     "description": "Graph-based, stateful agent orchestration with checkpointing; supports supervisor, swarm, and hierarchical multi-agent patterns."
   },
   {
@@ -26,7 +31,9 @@
     "github": "run-llama/llama_index",
     "license": "MIT",
     "status": "active",
-    "categories": ["frameworks"],
+    "categories": [
+      "frameworks"
+    ],
     "description": "Data framework for RAG-centric agentic systems; event-driven Workflows."
   },
   {
@@ -36,7 +43,9 @@
     "github": "deepset-ai/haystack",
     "license": "Apache-2.0",
     "status": "active",
-    "categories": ["frameworks"],
+    "categories": [
+      "frameworks"
+    ],
     "description": "Production NLP pipeline framework from deepset for enterprise document-processing agents."
   },
   {
@@ -46,7 +55,9 @@
     "github": "microsoft/semantic-kernel",
     "license": "MIT",
     "status": "active",
-    "categories": ["frameworks"],
+    "categories": [
+      "frameworks"
+    ],
     "description": "Microsoft's enterprise AI orchestrator (C#, Python, Java)."
   },
   {
@@ -56,7 +67,9 @@
     "github": "microsoft/agent-framework",
     "license": "MIT",
     "status": "active",
-    "categories": ["frameworks"],
+    "categories": [
+      "frameworks"
+    ],
     "description": "Converged AutoGen + Semantic Kernel agent stack (Python + .NET)."
   },
   {
@@ -66,7 +79,9 @@
     "github": "microsoft/autogen",
     "license": "MIT",
     "status": "legacy",
-    "categories": ["frameworks"],
+    "categories": [
+      "frameworks"
+    ],
     "description": "Microsoft's conversational multi-agent framework; pioneered multi-agent group chat — continued by the community as AG2."
   },
   {
@@ -76,7 +91,10 @@
     "github": "ag2ai/ag2",
     "license": "Apache-2.0",
     "status": "active",
-    "categories": ["frameworks", "orchestration"],
+    "categories": [
+      "frameworks",
+      "orchestration"
+    ],
     "description": "Community continuation of AutoGen by its original creators; open governance with MCP and A2A support."
   },
   {
@@ -86,7 +104,10 @@
     "github": "crewAIInc/crewAI",
     "license": "MIT",
     "status": "active",
-    "categories": ["frameworks", "orchestration"],
+    "categories": [
+      "frameworks",
+      "orchestration"
+    ],
     "description": "Role-based multi-agent framework; agents, tasks, and crews map to real teams."
   },
   {
@@ -96,7 +117,9 @@
     "github": "openai/openai-agents-python",
     "license": "MIT",
     "status": "active",
-    "categories": ["frameworks"],
+    "categories": [
+      "frameworks"
+    ],
     "description": "Lightweight, handoff-centric agent framework from OpenAI with tracing and guardrails."
   },
   {
@@ -106,7 +129,10 @@
     "github": "google/adk-python",
     "license": "Apache-2.0",
     "status": "active",
-    "categories": ["frameworks", "orchestration"],
+    "categories": [
+      "frameworks",
+      "orchestration"
+    ],
     "description": "Google's multi-agent framework with A2A built in; hierarchical agent systems pair with Vertex AI."
   },
   {
@@ -116,7 +142,9 @@
     "github": "strands-agents/sdk-python",
     "license": "Apache-2.0",
     "status": "active",
-    "categories": ["frameworks"],
+    "categories": [
+      "frameworks"
+    ],
     "description": "AWS-native composable agent framework."
   },
   {
@@ -126,7 +154,9 @@
     "github": null,
     "license": null,
     "status": "active",
-    "categories": ["frameworks"],
+    "categories": [
+      "frameworks"
+    ],
     "description": "Anthropic's SDK for building Claude-powered agents; MCP-native with extended thinking (Python and TypeScript SDKs)."
   },
   {
@@ -136,7 +166,9 @@
     "github": "huggingface/smolagents",
     "license": "Apache-2.0",
     "status": "active",
-    "categories": ["frameworks"],
+    "categories": [
+      "frameworks"
+    ],
     "description": "Hugging Face's minimal, code-first agent library."
   },
   {
@@ -146,7 +178,9 @@
     "github": "pydantic/pydantic-ai",
     "license": "MIT",
     "status": "active",
-    "categories": ["frameworks"],
+    "categories": [
+      "frameworks"
+    ],
     "description": "Type-safe agent framework from the Pydantic team with validated structured outputs."
   },
   {
@@ -156,7 +190,9 @@
     "github": "agno-agi/agno",
     "license": "Apache-2.0",
     "status": "active",
-    "categories": ["frameworks"],
+    "categories": [
+      "frameworks"
+    ],
     "description": "High-performance agent framework with multimodal support; Teams primitive and AgentOS runtime."
   },
   {
@@ -166,7 +202,9 @@
     "github": "mastra-ai/mastra",
     "license": "MIT",
     "status": "active",
-    "categories": ["frameworks"],
+    "categories": [
+      "frameworks"
+    ],
     "description": "TypeScript-first agent framework with built-in memory, evals, RAG, and MCP."
   },
   {
@@ -176,7 +214,9 @@
     "github": "vercel/ai",
     "license": "Apache-2.0",
     "status": "active",
-    "categories": ["frameworks"],
+    "categories": [
+      "frameworks"
+    ],
     "description": "Streaming-first agent SDK for web apps and agent UIs."
   },
   {
@@ -186,7 +226,10 @@
     "github": "geekan/MetaGPT",
     "license": "MIT",
     "status": "active",
-    "categories": ["frameworks", "orchestration"],
+    "categories": [
+      "frameworks",
+      "orchestration"
+    ],
     "description": "Multi-agent software-company simulation with SOPs and typed artifact pub/sub between roles."
   },
   {
@@ -196,7 +239,9 @@
     "github": "camel-ai/camel",
     "license": "Apache-2.0",
     "status": "active",
-    "categories": ["frameworks"],
+    "categories": [
+      "frameworks"
+    ],
     "description": "Communicative-agent framework for role-play and multi-agent research."
   },
   {
@@ -206,7 +251,9 @@
     "github": "stanfordnlp/dspy",
     "license": "MIT",
     "status": "active",
-    "categories": ["frameworks"],
+    "categories": [
+      "frameworks"
+    ],
     "description": "Declarative programming of LM pipelines with automatic prompt optimization (Stanford NLP)."
   },
   {
@@ -216,17 +263,21 @@
     "github": "Significant-Gravitas/AutoGPT",
     "license": "MIT",
     "status": "active",
-    "categories": ["frameworks"],
+    "categories": [
+      "frameworks"
+    ],
     "description": "The 2023 autonomous-agent pioneer; general-purpose agents that plan and execute tasks."
   },
   {
     "id": "vertex-ai-agent-builder",
     "name": "Vertex AI Agent Builder",
-    "url": "https://cloud.google.com/vertex-ai/docs/agents",
+    "url": "https://docs.cloud.google.com/agent-builder/overview",
     "github": null,
     "license": "commercial",
     "status": "active",
-    "categories": ["platforms"],
+    "categories": [
+      "platforms"
+    ],
     "description": "Google Cloud's managed agent development platform; framework-agnostic runtime with RAG Engine and Google Search grounding."
   },
   {
@@ -236,7 +287,10 @@
     "github": null,
     "license": "commercial",
     "status": "active",
-    "categories": ["platforms", "computer-use"],
+    "categories": [
+      "platforms",
+      "computer-use"
+    ],
     "description": "OpenAI's agentic product for browser automation and long multi-step tasks; absorbed Operator in July 2025."
   },
   {
@@ -246,7 +300,9 @@
     "github": null,
     "license": "commercial",
     "status": "beta",
-    "categories": ["platforms"],
+    "categories": [
+      "platforms"
+    ],
     "description": "Anthropic's hosted agent execution environment; stateful sessions with sandboxing, no own infra needed."
   },
   {
@@ -256,7 +312,9 @@
     "github": null,
     "license": "commercial",
     "status": "active",
-    "categories": ["platforms"],
+    "categories": [
+      "platforms"
+    ],
     "description": "AWS managed agent service; framework-agnostic, multi-model, with Bedrock Guardrails."
   },
   {
@@ -266,7 +324,9 @@
     "github": null,
     "license": "commercial",
     "status": "active",
-    "categories": ["platforms"],
+    "categories": [
+      "platforms"
+    ],
     "description": "Full-stack AI platform with managed agent runtime for Microsoft-centric shops."
   },
   {
@@ -276,7 +336,9 @@
     "github": null,
     "license": "commercial",
     "status": "active",
-    "categories": ["platforms"],
+    "categories": [
+      "platforms"
+    ],
     "description": "Low-code agent builder for Microsoft 365, Dynamics, and Power Platform."
   },
   {
@@ -286,7 +348,9 @@
     "github": null,
     "license": "commercial",
     "status": "active",
-    "categories": ["platforms"],
+    "categories": [
+      "platforms"
+    ],
     "description": "CRM-native autonomous agents on live Salesforce data; Atlas Reasoning Engine."
   },
   {
@@ -296,7 +360,9 @@
     "github": null,
     "license": "commercial",
     "status": "active",
-    "categories": ["platforms"],
+    "categories": [
+      "platforms"
+    ],
     "description": "No-code multi-agent \"workforce\" builder with a visual canvas; strong in sales/GTM workflows."
   },
   {
@@ -306,7 +372,9 @@
     "github": null,
     "license": "commercial",
     "status": "active",
-    "categories": ["platforms"],
+    "categories": [
+      "platforms"
+    ],
     "description": "Template-first no-code AI employees for email, CRM, and calendar; \"Agent Swarms\" for parallel tasks."
   },
   {
@@ -316,7 +384,9 @@
     "github": null,
     "license": "commercial",
     "status": "active",
-    "categories": ["platforms"],
+    "categories": [
+      "platforms"
+    ],
     "description": "Omnichannel chat and voice agent design platform; one agent runs across web, app, WhatsApp, SMS, and voice."
   },
   {
@@ -326,7 +396,9 @@
     "github": null,
     "license": "commercial",
     "status": "active",
-    "categories": ["platforms"],
+    "categories": [
+      "platforms"
+    ],
     "description": "Long-standing hosted agent creation and deployment platform."
   },
   {
@@ -336,7 +408,9 @@
     "github": "langgenius/dify",
     "license": "Apache-2.0",
     "status": "active",
-    "categories": ["platforms"],
+    "categories": [
+      "platforms"
+    ],
     "description": "Open-source LLMOps platform with visual agent builder and broad plugin marketplace."
   },
   {
@@ -346,7 +420,9 @@
     "github": "n8n-io/n8n",
     "license": "fair-code",
     "status": "active",
-    "categories": ["platforms"],
+    "categories": [
+      "platforms"
+    ],
     "description": "Workflow automation with native AI-agent nodes and MCP support; self-hostable."
   },
   {
@@ -356,7 +432,9 @@
     "github": "activepieces/activepieces",
     "license": null,
     "status": "active",
-    "categories": ["platforms"],
+    "categories": [
+      "platforms"
+    ],
     "description": "Open-source AI workflow automation; MCP-server-first automation for agents."
   },
   {
@@ -366,7 +444,9 @@
     "github": null,
     "license": "commercial",
     "status": "active",
-    "categories": ["platforms"],
+    "categories": [
+      "platforms"
+    ],
     "description": "Hosted and self-hosted agent operating system behind the Agno framework."
   },
   {
@@ -376,7 +456,9 @@
     "github": "livekit/agents",
     "license": "Apache-2.0",
     "status": "active",
-    "categories": ["platforms"],
+    "categories": [
+      "platforms"
+    ],
     "description": "Real-time voice agent framework on WebRTC; open source with plugin architecture and MCP support."
   },
   {
@@ -386,7 +468,9 @@
     "github": null,
     "license": "commercial",
     "status": "active",
-    "categories": ["platforms"],
+    "categories": [
+      "platforms"
+    ],
     "description": "Custom AI teammates inside Zapier automations, grounded in company knowledge."
   },
   {
@@ -396,7 +480,9 @@
     "github": "FlowiseAI/Flowise",
     "license": "MIT",
     "status": "sunsetting",
-    "categories": ["platforms"],
+    "categories": [
+      "platforms"
+    ],
     "description": "Visual LangChain/LlamaIndex agent builder; sunsetting — do not build on it."
   },
   {
@@ -406,7 +492,9 @@
     "github": "anthropics/claude-code",
     "license": "proprietary",
     "status": "active",
-    "categories": ["coding"],
+    "categories": [
+      "coding"
+    ],
     "description": "Anthropic's terminal-first agentic coding tool: subagents, hooks, plan mode, MCP."
   },
   {
@@ -416,7 +504,9 @@
     "github": "openai/codex",
     "license": "Apache-2.0",
     "status": "active",
-    "categories": ["coding"],
+    "categories": [
+      "coding"
+    ],
     "description": "OpenAI's open-source terminal coding agent; headless `codex exec` and MCP server mode."
   },
   {
@@ -426,7 +516,9 @@
     "github": null,
     "license": "proprietary",
     "status": "active",
-    "categories": ["coding"],
+    "categories": [
+      "coding"
+    ],
     "description": "AI-native IDE with background agents; the IDE agent to beat."
   },
   {
@@ -436,7 +528,9 @@
     "github": null,
     "license": "proprietary",
     "status": "active",
-    "categories": ["coding"],
+    "categories": [
+      "coding"
+    ],
     "description": "Agent mode and completion across VS Code and JetBrains; BYOK for enterprise."
   },
   {
@@ -446,7 +540,9 @@
     "github": null,
     "license": "proprietary",
     "status": "active",
-    "categories": ["coding"],
+    "categories": [
+      "coding"
+    ],
     "description": "Agentic IDE with \"Cascade\" flow and worktrees."
   },
   {
@@ -456,7 +552,9 @@
     "github": "Aider-AI/aider",
     "license": "Apache-2.0",
     "status": "active",
-    "categories": ["coding"],
+    "categories": [
+      "coding"
+    ],
     "description": "Open-source CLI pair-programmer with strong git integration; BYO LLM."
   },
   {
@@ -466,7 +564,9 @@
     "github": "cline/cline",
     "license": "Apache-2.0",
     "status": "active",
-    "categories": ["coding"],
+    "categories": [
+      "coding"
+    ],
     "description": "Open-source autonomous coding agent for VS Code; transparent consumption, headless SDK."
   },
   {
@@ -476,7 +576,9 @@
     "github": "continuedev/continue",
     "license": "Apache-2.0",
     "status": "active",
-    "categories": ["coding"],
+    "categories": [
+      "coding"
+    ],
     "description": "Open-source, model-agnostic IDE extension agent; Mission Control UI and cloud agents."
   },
   {
@@ -486,7 +588,9 @@
     "github": "google-gemini/gemini-cli",
     "license": "Apache-2.0",
     "status": "active",
-    "categories": ["coding"],
+    "categories": [
+      "coding"
+    ],
     "description": "Google's open-source terminal agent with LSP integration."
   },
   {
@@ -496,7 +600,9 @@
     "github": null,
     "license": "proprietary",
     "status": "active",
-    "categories": ["coding"],
+    "categories": [
+      "coding"
+    ],
     "description": "Cognition's autonomous cloud software engineer; CLI and API."
   },
   {
@@ -506,7 +612,9 @@
     "github": null,
     "license": "proprietary",
     "status": "active",
-    "categories": ["coding"],
+    "categories": [
+      "coding"
+    ],
     "description": "Asynchronous autonomous coding agent; GitHub-integrated, runs in cloud sandboxes."
   },
   {
@@ -516,7 +624,9 @@
     "github": "All-Hands-AI/OpenHands",
     "license": "MIT",
     "status": "active",
-    "categories": ["coding"],
+    "categories": [
+      "coding"
+    ],
     "description": "Open-source \"developer control center\"; SDK, CLI, GUI, and Agent Canvas."
   },
   {
@@ -526,7 +636,9 @@
     "github": "SWE-agent/SWE-agent",
     "license": "MIT",
     "status": "active",
-    "categories": ["coding"],
+    "categories": [
+      "coding"
+    ],
     "description": "Research-grade automated GitHub-issue solver (Princeton); the academic reference coding agent."
   },
   {
@@ -536,7 +648,9 @@
     "github": "sst/opencode",
     "license": "MIT",
     "status": "active",
-    "categories": ["coding"],
+    "categories": [
+      "coding"
+    ],
     "description": "Open-source terminal AI coding agent (TUI) with plugin support and headless JSON mode."
   },
   {
@@ -546,7 +660,9 @@
     "github": "block/goose",
     "license": "Apache-2.0",
     "status": "active",
-    "categories": ["coding"],
+    "categories": [
+      "coding"
+    ],
     "description": "Block's extensible local agent; recipes, MCP-native, Agent Client Protocol support."
   },
   {
@@ -556,7 +672,9 @@
     "github": "RooCodeInc/Roo-Code",
     "license": "Apache-2.0",
     "status": "active",
-    "categories": ["coding"],
+    "categories": [
+      "coding"
+    ],
     "description": "Autonomous agent extension in the Cline lineage; multi-mode with cloud agents."
   },
   {
@@ -566,7 +684,9 @@
     "github": "Kilo-Org/kilocode",
     "license": "Apache-2.0",
     "status": "active",
-    "categories": ["coding"],
+    "categories": [
+      "coding"
+    ],
     "description": "Agentic coding extension for VS Code and JetBrains; multi-mode context and Memory Bank."
   },
   {
@@ -576,18 +696,22 @@
     "github": "charmbracelet/crush",
     "license": null,
     "status": "active",
-    "categories": ["coding"],
+    "categories": [
+      "coding"
+    ],
     "description": "Charmbracelet's TUI coding agent (Go) with multi-model configs."
   },
   {
     "id": "amp",
     "name": "Amp",
-    "url": "https://github.com/sourcegraph/amp",
-    "github": "sourcegraph/amp",
+    "url": "https://ampcode.com",
+    "github": null,
     "license": null,
     "status": "active",
-    "categories": ["coding"],
-    "description": "Sourcegraph's subagent-based coding agent with issue integration."
+    "categories": [
+      "coding"
+    ],
+    "description": "Subagent-based coding agent with issue integration; spun off from Sourcegraph as independent Amp Inc. (Dec 2025)."
   },
   {
     "id": "openclaw",
@@ -596,7 +720,9 @@
     "github": "openclaw/openclaw",
     "license": null,
     "status": "active",
-    "categories": ["coding"],
+    "categories": [
+      "coding"
+    ],
     "description": "Self-hosted, always-on assistant harness; chat-reachable and proactive, orchestrates CLI agents."
   },
   {
@@ -606,7 +732,9 @@
     "github": null,
     "license": "proprietary",
     "status": "beta",
-    "categories": ["computer-use"],
+    "categories": [
+      "computer-use"
+    ],
     "description": "Screenshot→coordinate→action API tool loop; Docker Linux reference environment."
   },
   {
@@ -616,7 +744,9 @@
     "github": null,
     "license": "proprietary",
     "status": "active",
-    "categories": ["computer-use"],
+    "categories": [
+      "computer-use"
+    ],
     "description": "Browser extension that drives the user's installed Chrome."
   },
   {
@@ -626,7 +756,9 @@
     "github": null,
     "license": "proprietary",
     "status": "active",
-    "categories": ["computer-use"],
+    "categories": [
+      "computer-use"
+    ],
     "description": "Computer-Using Agent model via the Responses API `computer` tool; originally powered Operator."
   },
   {
@@ -636,7 +768,9 @@
     "github": null,
     "license": "proprietary",
     "status": "deprecated",
-    "categories": ["computer-use"],
+    "categories": [
+      "computer-use"
+    ],
     "description": "Standalone browser-automation product (Jan 2025); merged into ChatGPT Agent on July 17, 2025."
   },
   {
@@ -646,7 +780,9 @@
     "github": "browser-use/browser-use",
     "license": "MIT",
     "status": "active",
-    "categories": ["computer-use"],
+    "categories": [
+      "computer-use"
+    ],
     "description": "Widely-used open-source browser-agent library (Playwright); CLI 2.0 uses the Chrome DevTools Protocol."
   },
   {
@@ -656,7 +792,9 @@
     "github": "Skyvern-AI/skyvern",
     "license": "AGPL-3.0",
     "status": "active",
-    "categories": ["computer-use"],
+    "categories": [
+      "computer-use"
+    ],
     "description": "Enterprise browser-RPA replacement; planner-agent-validator architecture."
   },
   {
@@ -666,7 +804,9 @@
     "github": "simular-ai/Agent-S",
     "license": "Apache-2.0",
     "status": "active",
-    "categories": ["computer-use"],
+    "categories": [
+      "computer-use"
+    ],
     "description": "Full-desktop (macOS/Linux/Windows) and Android GUI agent."
   },
   {
@@ -676,7 +816,9 @@
     "github": "microsoft/OmniParser",
     "license": "MIT",
     "status": "active",
-    "categories": ["computer-use"],
+    "categories": [
+      "computer-use"
+    ],
     "description": "Microsoft's vision GUI-grounding module that turns any LLM into a GUI agent; pairs with OmniTool."
   },
   {
@@ -686,7 +828,9 @@
     "github": "feder-cr/AIHawk",
     "license": "MIT",
     "status": "active",
-    "categories": ["computer-use"],
+    "categories": [
+      "computer-use"
+    ],
     "description": "Job-application automation agent; Firefox-based community project."
   },
   {
@@ -696,7 +840,10 @@
     "github": "xlang-ai/OSWorld",
     "license": null,
     "status": "active",
-    "categories": ["computer-use", "evals"],
+    "categories": [
+      "computer-use",
+      "evals"
+    ],
     "description": "Real-computer OS task benchmark/environment across Ubuntu, Windows, and macOS; the standard computer-use benchmark."
   },
   {
@@ -706,7 +853,9 @@
     "github": "google-research/android_world",
     "license": null,
     "status": "active",
-    "categories": ["computer-use"],
+    "categories": [
+      "computer-use"
+    ],
     "description": "Real Android phone-control benchmark from Google Research."
   },
   {
@@ -716,7 +865,9 @@
     "github": "openai/swarm",
     "license": "MIT",
     "status": "archived",
-    "categories": ["orchestration"],
+    "categories": [
+      "orchestration"
+    ],
     "description": "Lightweight educational multi-agent handoff pattern; archived reference implementation — superseded by the OpenAI Agents SDK."
   },
   {
@@ -726,7 +877,9 @@
     "github": "bytedance/deer-flow",
     "license": null,
     "status": "active",
-    "categories": ["orchestration"],
+    "categories": [
+      "orchestration"
+    ],
     "description": "ByteDance's long-horizon \"SuperAgent\" harness with sub-agents and sandboxes."
   },
   {
@@ -736,7 +889,9 @@
     "github": "openagents-org/openagents",
     "license": null,
     "status": "active",
-    "categories": ["orchestration"],
+    "categories": [
+      "orchestration"
+    ],
     "description": "Protocol-based multi-agent communication and orchestration platform."
   },
   {
@@ -746,7 +901,9 @@
     "github": "OpenBMB/ChatDev",
     "license": "Apache-2.0",
     "status": "active",
-    "categories": ["orchestration"],
+    "categories": [
+      "orchestration"
+    ],
     "description": "Communicative \"virtual software company\"; classic chat-chain pipeline."
   },
   {
@@ -756,7 +913,9 @@
     "github": "agentscope-ai/agentscope",
     "license": null,
     "status": "active",
-    "categories": ["orchestration"],
+    "categories": [
+      "orchestration"
+    ],
     "description": "Alibaba's production-ready multi-agent framework with visual drag-and-drop tooling."
   },
   {
@@ -766,7 +925,9 @@
     "github": "VRSEN/agency-swarm",
     "license": null,
     "status": "active",
-    "categories": ["orchestration"],
+    "categories": [
+      "orchestration"
+    ],
     "description": "Swarms of agents with distinct roles; type-safe tools with auto-validation."
   },
   {
@@ -776,7 +937,9 @@
     "github": "zenml-io/kitaru",
     "license": null,
     "status": "active",
-    "categories": ["orchestration"],
+    "categories": [
+      "orchestration"
+    ],
     "description": "ZenML's durable execution framework: checkpoints, replay, and stateful flows for long-running agent systems."
   },
   {
@@ -786,7 +949,9 @@
     "github": "modelcontextprotocol/specification",
     "license": "MIT",
     "status": "active",
-    "categories": ["protocols"],
+    "categories": [
+      "protocols"
+    ],
     "description": "Standard for connecting agents to tools, data, prompts, and resources; donated to the Linux Foundation (Agentic AI Foundation) in December 2025."
   },
   {
@@ -796,7 +961,9 @@
     "github": "a2aproject/A2A",
     "license": "Apache-2.0",
     "status": "active",
-    "categories": ["protocols"],
+    "categories": [
+      "protocols"
+    ],
     "description": "Open protocol for discovery, delegation, and artifacts between opaque agents; Linux Foundation, v1.0.0 spec."
   },
   {
@@ -806,7 +973,9 @@
     "github": "agentclientprotocol/agent-client-protocol",
     "license": null,
     "status": "active",
-    "categories": ["protocols"],
+    "categories": [
+      "protocols"
+    ],
     "description": "Connect any editor to any coding agent (Zed); unrelated to IBM's ACP/A2A despite the acronym."
   },
   {
@@ -816,7 +985,9 @@
     "github": "ag-ui-protocol/ag-ui",
     "license": null,
     "status": "active",
-    "categories": ["protocols"],
+    "categories": [
+      "protocols"
+    ],
     "description": "Stream agent state, events, and human interaction into frontends; created by CopilotKit."
   },
   {
@@ -826,7 +997,9 @@
     "github": "agent-network-protocol/AgentNetworkProtocol",
     "license": null,
     "status": "active",
-    "categories": ["protocols"],
+    "categories": [
+      "protocols"
+    ],
     "description": "Decentralized agent identity, discovery, and encrypted collaboration (did:wba); W3C community group."
   },
   {
@@ -836,7 +1009,9 @@
     "github": null,
     "license": null,
     "status": "active",
-    "categories": ["protocols"],
+    "categories": [
+      "protocols"
+    ],
     "description": "Scoped, revocable payment authorization for agentic commerce; Google/Stripe-backed mandate protocol."
   },
   {
@@ -846,7 +1021,9 @@
     "github": "agentsmd/agents.md",
     "license": null,
     "status": "active",
-    "categories": ["protocols"],
+    "categories": [
+      "protocols"
+    ],
     "description": "Portable repo-guidance convention for coding agents; read by OpenCode, Crush, Cline, Cursor, and others."
   },
   {
@@ -856,7 +1033,9 @@
     "github": "THUDM/AgentBench",
     "license": null,
     "status": "active",
-    "categories": ["evals"],
+    "categories": [
+      "evals"
+    ],
     "description": "Eight-environment holistic agent evaluation (ICLR 2024)."
   },
   {
@@ -866,7 +1045,9 @@
     "github": null,
     "license": null,
     "status": "active",
-    "categories": ["evals"],
+    "categories": [
+      "evals"
+    ],
     "description": "Real-world questions requiring web search, tool use, and reasoning; difficulty tiers."
   },
   {
@@ -876,7 +1057,9 @@
     "github": "sierra-research/tau-bench",
     "license": null,
     "status": "active",
-    "categories": ["evals"],
+    "categories": [
+      "evals"
+    ],
     "description": "Customer-support agent eval with realistic tools and a user simulator (Sierra)."
   },
   {
@@ -886,7 +1069,9 @@
     "github": "swe-bench/SWE-bench",
     "license": null,
     "status": "active",
-    "categories": ["evals"],
+    "categories": [
+      "evals"
+    ],
     "description": "Resolve real GitHub issues across Python repos; the code-agent gold standard, with a cleaned Verified subset."
   },
   {
@@ -896,7 +1081,9 @@
     "github": "web-arena-x/webarena",
     "license": null,
     "status": "active",
-    "categories": ["evals"],
+    "categories": [
+      "evals"
+    ],
     "description": "Realistic web tasks across e-commerce, GitLab, and social sites; VisualWebArena adds visual reasoning."
   },
   {
@@ -906,7 +1093,9 @@
     "github": null,
     "license": null,
     "status": "active",
-    "categories": ["evals"],
+    "categories": [
+      "evals"
+    ],
     "description": "Berkeley Function Calling Leaderboard; AST-matched tool-call accuracy at scale."
   },
   {
@@ -916,7 +1105,9 @@
     "github": "OpenBMB/ToolBench",
     "license": null,
     "status": "active",
-    "categories": ["evals"],
+    "categories": [
+      "evals"
+    ],
     "description": "Tool use across thousands of real APIs (ToolLLM)."
   },
   {
@@ -926,7 +1117,9 @@
     "github": null,
     "license": null,
     "status": "active",
-    "categories": ["evals"],
+    "categories": [
+      "evals"
+    ],
     "description": "Everyday online tasks for AI agents; a 2026 consumer-task benchmark."
   },
   {
@@ -936,7 +1129,9 @@
     "github": "mem0ai/mem0",
     "license": "Apache-2.0",
     "status": "active",
-    "categories": ["memory"],
+    "categories": [
+      "memory"
+    ],
     "description": "Self-improving memory layer for agents and assistants."
   },
   {
@@ -946,7 +1141,9 @@
     "github": "getzep/zep",
     "license": null,
     "status": "active",
-    "categories": ["memory"],
+    "categories": [
+      "memory"
+    ],
     "description": "Managed memory on a temporal knowledge graph; community edition deprecated — enterprise continues on the Graphiti engine."
   },
   {
@@ -956,7 +1153,9 @@
     "github": "getzep/graphiti",
     "license": "Apache-2.0",
     "status": "active",
-    "categories": ["memory"],
+    "categories": [
+      "memory"
+    ],
     "description": "Real-time bi-temporal knowledge-graph engine (powers Zep); hybrid semantic + keyword + graph retrieval."
   },
   {
@@ -966,7 +1165,9 @@
     "github": "letta-ai/letta-code",
     "license": "Apache-2.0",
     "status": "active",
-    "categories": ["memory"],
+    "categories": [
+      "memory"
+    ],
     "description": "Stateful agent platform (ex-MemGPT): self-editing memory blocks; Git-backed context."
   },
   {
@@ -976,7 +1177,9 @@
     "github": "topoteretes/cognee",
     "license": "Apache-2.0",
     "status": "active",
-    "categories": ["memory"],
+    "categories": [
+      "memory"
+    ],
     "description": "Open-source memory engine; self-hosted knowledge graph via an ECL pipeline."
   },
   {
@@ -986,7 +1189,9 @@
     "github": null,
     "license": "commercial",
     "status": "active",
-    "categories": ["observability"],
+    "categories": [
+      "observability"
+    ],
     "description": "Tracing, evals, and prompt management for LangChain/LangGraph."
   },
   {
@@ -997,7 +1202,9 @@
     "license": "commercial",
     "status": "active",
     "acquired_by": "ClickHouse",
-    "categories": ["observability"],
+    "categories": [
+      "observability"
+    ],
     "description": "Open-source LLM/agent tracing, evals, and prompt management; acquired by ClickHouse (Jan 2026)."
   },
   {
@@ -1007,7 +1214,9 @@
     "github": null,
     "license": "Apache-2.0",
     "status": "active",
-    "categories": ["observability"],
+    "categories": [
+      "observability"
+    ],
     "description": "OTel-native tracing with RAG/agent evaluation; commercial Arize AX on top."
   },
   {
@@ -1017,7 +1226,9 @@
     "github": null,
     "license": "commercial",
     "status": "maintenance",
-    "categories": ["observability"],
+    "categories": [
+      "observability"
+    ],
     "description": "Proxy-based LLM observability; in maintenance mode since March 2026 — avoid for greenfield."
   },
   {
@@ -1027,7 +1238,9 @@
     "github": null,
     "license": "commercial",
     "status": "active",
-    "categories": ["marketplaces"],
+    "categories": [
+      "marketplaces"
+    ],
     "description": "Buy and deploy agents; Bedrock AgentCore-deployable with PAYG, contracts, and private offers."
   },
   {
@@ -1037,7 +1250,9 @@
     "github": null,
     "license": "commercial",
     "status": "active",
-    "categories": ["marketplaces"],
+    "categories": [
+      "marketplaces"
+    ],
     "description": "Partner agent marketplace for the Salesforce ecosystem."
   },
   {
@@ -1047,7 +1262,9 @@
     "github": null,
     "license": "commercial",
     "status": "active",
-    "categories": ["marketplaces"],
+    "categories": [
+      "marketplaces"
+    ],
     "description": "Enterprise procurement for Copilot agents inside Microsoft 365."
   },
   {
@@ -1057,7 +1274,9 @@
     "github": null,
     "license": null,
     "status": "active",
-    "categories": ["marketplaces"],
+    "categories": [
+      "marketplaces"
+    ],
     "description": "Open SKILL.md capability-pack spec and ecosystem."
   },
   {
@@ -1068,18 +1287,22 @@
     "license": "commercial",
     "status": "active",
     "acquired_by": "Check Point",
-    "categories": ["security"],
+    "categories": [
+      "security"
+    ],
     "description": "Real-time prompt-injection and data-leak protection; acquired by Check Point (Sept 2025)."
   },
   {
     "id": "robust-intelligence",
     "name": "Robust Intelligence",
-    "url": "https://www.robustintelligence.com/platform/ai-firewall",
+    "url": "https://robustintelligence.com",
     "github": null,
     "license": "commercial",
     "status": "active",
     "acquired_by": "Cisco",
-    "categories": ["security"],
+    "categories": [
+      "security"
+    ],
     "description": "AI firewall and automated red teaming; acquired by Cisco."
   },
   {
@@ -1089,7 +1312,9 @@
     "github": null,
     "license": "commercial",
     "status": "active",
-    "categories": ["security"],
+    "categories": [
+      "security"
+    ],
     "acquired_by": "Palo Alto Networks",
     "description": "Model scanning and ML supply-chain security; acquired by Palo Alto Networks."
   },
@@ -1100,7 +1325,9 @@
     "github": "NVIDIA/NeMo-Guardrails",
     "license": null,
     "status": "active",
-    "categories": ["security"],
+    "categories": [
+      "security"
+    ],
     "description": "Programmable, open-source guardrails toolkit (Colang)."
   },
   {
@@ -1110,7 +1337,9 @@
     "github": "e2b-dev/E2B",
     "license": "Apache-2.0",
     "status": "active",
-    "categories": ["sandboxes"],
+    "categories": [
+      "sandboxes"
+    ],
     "description": "Cloud sandboxes for agent-generated code; desktop (computer-use) sandboxes."
   },
   {
@@ -1120,7 +1349,9 @@
     "github": "ArcadeAI/arcade-ai",
     "license": "MIT",
     "status": "active",
-    "categories": ["sandboxes"],
+    "categories": [
+      "sandboxes"
+    ],
     "description": "Tool-calling platform with per-user authorization; agents act as the user, not a bot."
   },
   {
@@ -1130,7 +1361,9 @@
     "github": "ComposioHQ/composio",
     "license": null,
     "status": "active",
-    "categories": ["sandboxes"],
+    "categories": [
+      "sandboxes"
+    ],
     "description": "Managed auth and app integrations as agent tools; skips OAuth plumbing for Gmail, Slack, Jira."
   },
   {
@@ -1140,7 +1373,9 @@
     "github": "firecracker-microvm/firecracker",
     "license": "Apache-2.0",
     "status": "active",
-    "categories": ["sandboxes"],
+    "categories": [
+      "sandboxes"
+    ],
     "description": "AWS microVMs; the isolation tech underneath most multi-tenant agent execution platforms."
   }
 ]
