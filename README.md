@@ -59,7 +59,7 @@ Libraries and SDKs for building agents — single-agent loops, tool use, and mul
 
 Hosted platforms for building, running, and managing agents — low-code to fully managed runtimes.
 
-- [Vertex AI Agent Builder](https://cloud.google.com/vertex-ai/docs/agents) — Google Cloud's managed agent development platform; framework-agnostic runtime with RAG Engine and Google Search grounding.
+- [Vertex AI Agent Builder](https://docs.cloud.google.com/agent-builder/overview) — Google Cloud's managed agent development platform; framework-agnostic runtime with RAG Engine and Google Search grounding.
 - [ChatGPT Agent](https://openai.com/index/introducing-chatgpt-agent/) — OpenAI's agentic product for browser automation and long multi-step tasks; absorbed Operator in July 2025.
 - [Claude Managed Agents](https://platform.claude.com/docs/en/managed-agents/overview) `(beta)` — Anthropic's hosted agent execution environment; stateful sessions with sandboxing, no own infra needed.
 - [Amazon Bedrock Agents / AgentCore](https://aws.amazon.com/bedrock/agents/) — AWS managed agent service; framework-agnostic, multi-model, with Bedrock Guardrails.
@@ -100,7 +100,7 @@ Agents that write, edit, test, and ship code — terminal CLIs, IDE extensions, 
 - [Roo Code](https://github.com/RooCodeInc/Roo-Code) `OSS` — Autonomous agent extension in the Cline lineage; multi-mode with cloud agents.
 - [Kilo Code](https://github.com/Kilo-Org/kilocode) `OSS` — Agentic coding extension for VS Code and JetBrains; multi-mode context and Memory Bank.
 - [Crush](https://github.com/charmbracelet/crush) `OSS` — Charmbracelet's TUI coding agent (Go) with multi-model configs.
-- [Amp](https://github.com/sourcegraph/amp) `OSS` — Sourcegraph's subagent-based coding agent with issue integration.
+- [Amp](https://ampcode.com) — Subagent-based coding agent with issue integration; spun off from Sourcegraph as independent Amp Inc. (Dec 2025).
 - [OpenClaw](https://github.com/openclaw/openclaw) `OSS` — Self-hosted, always-on assistant harness; chat-reachable and proactive, orchestrates CLI agents.
 
 ## Computer-Use / GUI Agents
@@ -193,7 +193,7 @@ Where agents and agent capabilities get discovered, bought, and distributed.
 Keeping agents safe: prompt-injection defense, AI firewalls, model scanning, and programmable guardrails.
 
 - [Lakera Guard](https://www.lakera.ai/lakera-guard) — Real-time prompt-injection and data-leak protection. 🔀 **Acquired by Check Point (Sept 2025).**
-- [Robust Intelligence](https://www.robustintelligence.com/platform/ai-firewall) — AI firewall and automated red teaming. 🔀 **Acquired by Cisco.**
+- [Robust Intelligence](https://robustintelligence.com) — AI firewall and automated red teaming. 🔀 **Acquired by Cisco.**
 - [Protect AI](https://protectai.com) — Model scanning and ML supply-chain security. 🔀 **Acquired by Palo Alto Networks.**
 - [NVIDIA NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) `OSS` — Programmable, open-source guardrails toolkit (Colang).
 
