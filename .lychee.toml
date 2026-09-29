@@ -7,6 +7,7 @@ exclude = [
   "https://npmjs.com",
   "https://replit.com",  # bot-blocking (RemoteDisconnected on plain GET)
   "https://platform.openai.com",  # 403 to automated checks; live for humans
+  "https://openai\\.com/index/",  # 403 to automated checks; live for humans
   "https://www.salesforce.com/agentforce/agentexchange/?bc=OTH",  # bot-walled; live for humans
 ]
 # Be lenient with rate-limited hosts; retry before failing.
