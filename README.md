@@ -4,6 +4,9 @@
 
 This list tracks every notable product in the space as of **September 2026**. A machine-readable copy lives in [`data/agents.json`](data/agents.json).
 
+> **Scope:** This is the *broad ecosystem* list — the starting point for anything agent-related. It covers single-agent frameworks and SDKs, hosted agent development platforms, autonomous coding agents, and computer-use/GUI agents, alongside the supporting layers (protocols, evals, memory, observability, marketplaces, security, sandboxes). Its Multi-Agent Orchestration section overlaps with two sibling lists: when you want *depth on coordination itself* rather than ecosystem breadth, open [awesome-AI-agent-orchestration](https://github.com/awesome-llms-labs/awesome-AI-agent-orchestration) (the coordination mechanisms: graphs, handoffs, protocols, memory, durable execution) or [awesome-multi-agents-workflow](https://github.com/awesome-llms-labs/awesome-multi-agents-workflow) (multi-agent teams as working systems: crews, supervisor teams, SaaS/cloud platforms, workflow infrastructure).
+
+
 **Status tags:** `(beta)` = public beta/preview · `(legacy)` = superseded but still around · `(archived)` = repo archived · `(deprecated)` = vendor-retired · `(sunsetting)` = being wound down — avoid for new work · `(maintenance)` = maintenance mode only — avoid for greenfield · `acquired by X` = product continues under new owner
 
 ## Contents
@@ -241,3 +244,4 @@ Contributions welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) first — 
 [![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 This repository is released under the [MIT License](LICENSE). Copyright (c) 2026 dakotac1994.
+
